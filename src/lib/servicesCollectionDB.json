@@ -1,0 +1,157 @@
+[
+      {
+            "category_id": 1,
+            "category_name": "Design",
+            "service_name": "UI & UX Design",
+            "service_slag": "ui-ux-design",
+            "title": "User Experience (UX) Design",
+            "description": "At DigiMatric, we have a team of experts whose exceptional user experience (UX) design is the cornerstone of a successful digital product. From initial development and testing to final deployment,",
+            "about": {
+                  "title": "Streamlining Every Stage, from Development to Deployment, Ensuring Efficiency, and Delivering Exceptional Results",
+                  "img": "/assets/images/services/details-image/about-service.png",
+                  "description": [
+                        "At DigiMatric, we have a team of experts whose exceptional user experience (UX) design is the cornerstone of a successful digital product.",
+                        "From initial development and testing to final deployment, our Team ensures that every stage is carefully optimized to deliver seamless, intuitive, high-performance solutions that exceed user expectations."
+                  ]
+            },
+            "whyChoose": {
+                  "title": "Why Your Business Needs UX Design",
+                  "description": "Increase Your Search Rankings and Drive More Targeted Traffic",
+                  "facilities": [
+                        {
+                              "id": 1,
+                              "list": [
+                                    "All-inclusive maintenance plans covering updates, backups, security, and performance optimization",
+                                    "Dedicated team of web development experts optimizing your website",
+                                    "Continuous monitoring and proactive support to address issues before they impact your site",
+                                    "Flexible maintenance plans that can easily adapt to the changing needs of your business"
+                              ]
+                        },
+                        {
+                              "id": 2,
+                              "list": [
+                                    "All-inclusive maintenance plans covering updates, backups, security, and performance optimization",
+                                    "Dedicated team of web development experts optimizing your website",
+                                    "Continuous monitoring and proactive support to address issues before they impact your site",
+                                    "Flexible maintenance plans that can easily adapt to the changing needs of your business"
+                              ]
+                        },
+                        {
+                              "id": 3,
+                              "list": [
+                                    "All-inclusive maintenance plans covering updates, backups, security, and performance optimization",
+                                    "Dedicated team of web development experts optimizing your website",
+                                    "Continuous monitoring and proactive support to address issues before they impact your site",
+                                    "Flexible maintenance plans that can easily adapt to the changing needs of your business"
+                              ]
+                        }
+                  ]
+            },
+            "serviceMoreDetails": {
+                  "item1": {
+                        "title": "Meet Your Social Media Management Agency",
+                        "description": [
+                              "You probably didn’t get into business with the expectation that you’d have to manage multiple social media pages in addition to your day-to-day operations. We get it, which is why we offer SEO-driven social media management service that keeps your social media presence going strong without taking away from everything else that you need to get done.",
+                              "Strategic social media marketing is built on the belief that your content should not be overly sales-focused. While it is essential to build brand awareness and promote your products and services, engaging your audience with interactive content and community-building activities can be a much more effective social media strategy than simply posting about what you sell."
+                        ],
+                        "img": "/assets/images/services/details-image/more-detail/1.png"
+                  },
+                  "item2": {
+                        "title": "Your website is your brand's most visible.",
+                        "description": [
+                              "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do. Visitors judge whether or not they trust your business from the moment they land on your site.",
+                              "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful."
+                        ],
+                        "img": "/assets/images/services/details-image/more-detail/2.png"
+                  }
+            },
+            "serviceSupport": {
+                  "title": "Why Choose Us For Your UI/UX Design",
+                  "description": "At Digimatric, we are dedicated to providing exceptional digital solutions that elevate your business. Here’s why we are the right choice for your brand:",
+                  "tabData": [
+                        {
+                              "id": 1,
+                              "name": "Expertise You Can Trust",
+                              "description": "With years of experience in UI/UX design, digital marketing, and web development, our team is equipped to deliver innovative solutions that meet your business needs. We have worked with businesses across various industries, ensuring a proven track record of success. Our commitment to staying updated with the latest industry trends and technologies ensures that you receive cutting-edge strategies tailored for impactful results.",
+                              "logo": "/assets/images/services/details-image/support/1.png"
+                        },
+                        {
+                              "id": 2,
+                              "name": "Results-Driven Approach",
+                              "description": "We focus on delivering measurable outcomes that contribute to your business's growth. From increasing website traffic to generating qualified leads and boosting conversion rates, every project we undertake is designed to maximize your ROI. Our custom solutions are aligned with your unique goals, ensuring that every effort directly impacts your bottom line.",
+                              "logo": "/assets/images/services/details-image/support/1.png"
+                        },
+                        {
+                              "id": 3,
+                              "name": "Seamless Collaboration",
+                              "description": "We believe in building strong partnerships with our clients. By working closely with you to understand your challenges and objectives, we create solutions that truly reflect your vision. Our transparent communication ensures you’re always informed at every stage of the project, while timely updates and feedback loops guarantee a smooth and collaborative experience.",
+                              "logo": "/assets/images/services/details-image/support/1.png"
+                        },
+                        {
+                              "id": 4,
+                              "name": "End-to-End Solutions",
+                              "description": "As a full-service digital marketing agency, we offer comprehensive solutions to meet all your needs under one roof. From strategy development and creative design to implementation and ongoing support, we handle everything. Our flexible pricing plans make our services accessible to businesses of all sizes. Plus, we provide ongoing maintenance and updates to ensure your digital platforms remain optimized and perform at their best.",
+                              "logo": "/assets/images/services/details-image/support/1.png"
+                        }
+                  ]
+            },
+            "moreContent": [
+                  {
+                        "title": "Meet Your Social Media Management Agency",
+                        "description": [
+                              "You probably didn’t get into business with the expectation that you’d have to manage multiple social media pages in addition to your day-to-day operations. We get it, which is why we offer SEO-driven social media management service that keeps your social media presence going strong without taking away from everything else that you need to get done.",
+                              "Strategic social media marketing is built on the belief that your content should not be overly sales-focused. While it is essential to build brand awareness and promote your products and services, engaging your audience with interactive content and community-building activities can be a much more effective social media strategy than simply posting about what you sell."
+                        ],
+                        "img": "/assets/images/services/details-image/design/ui-ux/1.png"
+                  },
+                  {
+                        "title": "Your website is your brand's most visible.",
+                        "description": [
+                              "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do. Visitors judge whether or not they trust your business from the moment they land on your site.",
+                              "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful."
+                        ],
+                        "img": "/assets/images/services/details-image/design/ui-ux/2.png"
+                  },
+                  {
+                        "title": "Your website is your brand's most visible.",
+                        "description": [
+                              "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do. Visitors judge whether or not they trust your business from the moment they land on your site.",
+                              "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful. Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do. Visitors judge whether or not they trust your business from the moment they land on your site."
+                        ],
+                        "img": "/assets/images/services/details-image/design/ui-ux/3.png"
+                  }
+            ],
+      "priceStart": {
+            "price": "$300"
+      },
+      "caseStudies": [
+            {
+                  "title": "Developing A Secure Hub for Property Management Excellence",
+                  "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim fames quam pellentesque interdum purus senectus feugiat elit.c.",
+                  "img": "/assets/images/case-studies/7.png",
+                  "author": "Author Name",
+                  "category": "Shopping",
+                  "date": "May 14, 2024",
+                  "link": ""
+            },
+            {
+                  "title": "Developing A Secure Hub for Property Management Excellence",
+                  "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim fames quam pellentesque interdum purus senectus feugiat elit.c.",
+                  "img": "/assets/images/case-studies/8.png",
+                  "author": "Author Name",
+                  "category": "Shopping",
+                  "date": "May 14, 2024",
+                  "link": ""
+            },
+            {
+                  "title": "Developing A Secure Hub for Property Management Excellence",
+                  "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim fames quam pellentesque interdum purus senectus feugiat elit.c.",
+                  "img": "/assets/images/case-studies/9.png",
+                  "author": "Author Name",
+                  "category": "Shopping",
+                  "date": "May 14, 2024",
+                  "link": ""
+            }
+      ]
+}
+]

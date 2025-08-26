@@ -1,0 +1,223 @@
+[
+  {
+    "category_id": 1,
+    "category_name": "Design",
+    "description": "Digimatric's design services focus on creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is about aesthetics and creating seamless, intuitive user experiences.",
+    "category_link": "/design",
+    "button": "Our design services include:",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "User Interface (UI) Design",
+        "sub_services": [
+          { "id": 1, "title": "Intuitive and visually appealing interface design.", "icon": "" },
+          { "id": 2, "title": "Custom iconography and illustration.", "icon": "" },
+          { "id": 3, "title": "Typography and color palette selection.", "icon": "" },
+          { "id": 4, "title": "Responsive design for various devices.", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 2,
+        "service_name": "User Experience (UX) Design",
+        "sub_services": [
+          { "id": 1, "title": "User research and persona development", "icon": "" },
+          { "id": 2, "title": "Information architecture and wireframing.", "icon": "" },
+          { "id": 3, "title": "Prototyping and user testing.", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 3,
+        "service_name": "Branding and Identity",
+        "sub_services": [
+          { "id": 1, "title": "Logo design and visual identity development.", "icon": "" },
+          { "id": 2, "title": "Brand strategy and positioning.", "icon": "" },
+          { "id": 3, "title": "Brand guidelines and style guides.", "icon": "" },
+          { "id": 4, "title": "Marketing collateral design (brochures, business cards, etc.).", "icon": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": 2,
+    "category_name": "Development",
+    "description": "Our engineering team builds robust and scalable digital solutions by leveraging the latest technologies and best practices.",
+    "category_link": "/development",
+    "button": "Our development services include:",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "Web Development",
+        "sub_services": [
+          { "id": 1, "title": "Front-end development (HTML, CSS, JavaScript)", "icon": "" },
+          { "id": 2, "title": "Back-end development (PHP, Python, Ruby)", "icon": "" },
+          { "id": 3, "title": "Content Management System (CMS) development (WordPress, Drupal).", "icon": "" },
+          { "id": 4, "title": "E-commerce platform development (Magento, Shopify).", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 2,
+        "service_name": "Mobile App Development",
+        "sub_services": [
+          { "id": 1, "title": "Native iOS and Android app development.", "icon": "" },
+          { "id": 2, "title": "Cross-platform app development (React Native, Flutter).", "icon": "" },
+          { "id": 3, "title": "UI/UX design integration.", "icon": "" },
+          { "id": 4, "title": "App testing, deployment, and maintenance.", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 3,
+        "service_name": "Custom Software Development",
+        "sub_services": [
+          { "id": 1, "title": "Enterprise software development.", "icon": "" },
+          { "id": 2, "title": "Custom web application development.", "icon": "" },
+          { "id": 3, "title": "Integration with third-party APIs and systems.", "icon": "" },
+          { "id": 4, "title": "Legacy system modernization and migration.", "icon": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": 3,
+    "category_name": "Project Management",
+    "description": "Our project management team ensures successful project delivery on time and within budget.",
+    "category_link": "/digital-marketing",
+    "button": "Our project management services include:",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "Project Planning and Scoping",
+        "sub_services": [
+          { "id": 1, "title": "Requirements analysis and gathering.", "icon": "" },
+          { "id": 2, "title": "Roadmap and timeline development.", "icon": "" },
+          { "id": 3, "title": "Resource allocation and task assignment.", "icon": "" },
+          { "id": 4, "title": "Risk assessment and mitigation strategies.", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 2,
+        "service_name": "Agile Development",
+        "sub_services": [
+          { "id": 1, "title": "Iterative development and sprints", "icon": "" },
+          { "id": 2, "title": "Scrum or Kanban methodology implementation.", "icon": "" },
+          { "id": 3, "title": "Regular progress updates and demos.", "icon": "" },
+          { "id": 4, "title": "Continuous improvement and feedback incorporation.", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 3,
+        "service_name": "Quality Assurance and Testing",
+        "sub_services": [
+          { "id": 1, "title": "Test planning and execution.", "icon": "" },
+          { "id": 2, "title": "Functional and usability testing.", "icon": "" },
+          { "id": 3, "title": "Performance and security testing.", "icon": "" },
+          { "id": 4, "title": "Bug tracking and issue resolution.", "icon": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": 4,
+    "category_name": "Digital Marketing",
+    "description": "Drive sustainable growth with expert digital marketing services tailored to your goals.",
+    "category_link": "/content-marketing",
+    "button": "Our digital marketing services include:",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "Search Engine Optimization (SEO)",
+        "sub_services": [
+          { "id": 1, "title": "Local SEO.", "icon": "" },
+          { "id": 2, "title": "Technical SEO.", "icon": "" },
+          { "id": 3, "title": "Off-page SEO.", "icon": "" },
+          { "id": 4, "title": "Shopify SEO and Amazon SEO.", "icon": "" },
+          { "id": 4, "title": "White hat SEO techniques.", "icon": "" },
+          { "id": 4, "title": "SEO audits and competitor analysis.", "icon": "" },
+          { "id": 4, "title": "Semantic SEO and GMB optimization.", "icon": "" },
+          { "id": 4, "title": "International SEO and enterprise SEO audits.", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 2,
+        "service_name": "Pay Per Click (PPC) Marketing",
+        "sub_services": [
+          { "id": 1, "title": "Search Engine Marketing (SEM).", "icon": "" },
+          { "id": 2, "title": "Google Ads and YouTube Ads management.", "icon": "" },
+          { "id": 3, "title": "Programmatic advertising.", "icon": "" },
+          { "id": 4, "title": "Lead generation services.", "icon": "" },
+          { "id": 4, "title": "Amazon advertising/PPC.", "icon": "" }
+        ]
+      },
+      {
+        "service_id": 3,
+        "service_name": "Social Media Marketing",
+        "sub_services": [
+          { "id": 1, "title": "Social media management and brand management.", "icon": "" },
+          { "id": 2, "title": "Enterprise social media solutions.", "icon": "" },
+          { "id": 3, "title": "Social media advertising (Facebook, LinkedIn, Twitter, Instagram, YouTube).", "icon": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": 5,
+    "category_name": "Link Building",
+    "description": "Boost your website's authority and visibility with strategic link-building services.",
+    "category_link": "/content-marketing",
+    "button": "Our link-building services include:",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "Link Building",
+        "sub_services": [
+          { "id": 1, "title": "Guest posting services.", "icon": "" },
+          { "id": 2, "title": "Digital PR outreach.", "icon": "" },
+          { "id": 3, "title": "HARO link building.", "icon": "" },
+          { "id": 4, "title": "Tier link building and citations.", "icon": "" },
+          { "id": 4, "title": "Competitor backlink analysis and replication.", "icon": "" },
+          { "id": 4, "title": "Broken link reclamation.", "icon": "" },
+          { "id": 4, "title": "Local directory submissions and niche edits.", "icon": "" },
+          { "id": 4, "title": "Forum and community link building.", "icon": "" },
+          { "id": 4, "title": "Content syndication for link building.", "icon": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": 6,
+    "category_name": "Content Marketing",
+    "description": "Attract and retain customers with impactful content marketing solutions.",
+    "category_link": "/content-marketing",
+    "button": "Our content marketing services include",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "Content Marketing",
+        "sub_services": [
+          { "id": 1, "title": "SEO content writing.", "icon": "" },
+          { "id": 2, "title": "Copywriting services.", "icon": "" },
+          { "id": 3, "title": "Translation services.", "icon": "" },
+          { "id": 4, "title": "Email marketing services.", "icon": "" },
+          { "id": 4, "title": "Outbound marketing campaigns.", "icon": "" }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": 7,
+    "category_name": "E-Commerce Marketing",
+    "description": "Maximize revenue with expert e-commerce marketing services.",
+    "category_link": "/content-marketing",
+    "button": "Our e-commerce marketing services include:",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "E-Commerce Marketing",
+        "sub_services": [
+          { "id": 1, "title": "E-commerce SEO for enhanced visibility.", "icon": "" },
+          { "id": 2, "title": "E-commerce PPC for targeted campaigns.", "icon": "" },
+          { "id": 3, "title": "Shopify web design and optimization.", "icon": "" },
+          { "id": 4, "title": "Custom e-commerce design and seamless shopping experiences.", "icon": "" }        ]
+      }
+    ]
+  }
+]
