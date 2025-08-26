@@ -10,8 +10,8 @@ export const metadata = {
   description: 'Best digital agency in Dhaka Bangladesh',
 }
 const page = async () => {
-  // const services = await getServices();
-  const services = null;
+  const services = await getServices();
+  // const services = null;
   // console.log("serviceDAta:", services)
   return (
     <div>
