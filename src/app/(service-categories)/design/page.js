@@ -7,7 +7,7 @@ import getServiceByCategory from "@/lib/getServiceByCategory";
 
 const page = async ({ params }) => {
   const data = await getServiceByCategory(params?.category);
-  console.log("Service category data", data);
+  // console.log(data)
 
   return (
     <>
