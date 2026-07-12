@@ -9,11 +9,16 @@ const SubMenuBar = ({ setNavToggle, navData }) => {
         <div className="grid grid-cols-4 gap-3 md:gap-y-6">
           {navData?.map((category, i) => {
             const categorySlag = generateSlug(category?.category_name);
+            const hrefPath = categorySlag === "design"
+              ? "/design"
+              : categorySlag === "search-engine-optimization-seo"
+                ? "/search-engine-optimization-seo"
+                : `/services/${categorySlag}`;
             return (
               <div key={i} className="">
                 <NavLink
                   onClick={() => setNavToggle(false)}
-                  href={`/services/${categorySlag}`}
+                  href={hrefPath}
                   activeClassName=" border-b border-white"
                   className="text-primary text-base font-bold"
                   exact={categorySlag === "/"}
@@ -48,11 +53,16 @@ const ServiceList = ({ services, categorySlug, setNavToggle }) => {
     <ul className="flex flex-col gap-1 pt-2">
       {visibleServices?.map((service, i) => {
         const serviceSlag = generateSlug(service?.service_name);
+        const hrefPath = (categorySlug === "design" && serviceSlag === "ui-ux-design")
+          ? "/design/ui-ux-design"
+          : (categorySlug === "design" && serviceSlag === "branding-and-identity")
+            ? "/design/branding-and-identity"
+            : `/services/${categorySlug}/${serviceSlag}`;
         return (
           <li key={i}>
             <NavLink
               onClick={() => setNavToggle(false)}
-              href={`/services/${categorySlug}/${serviceSlag}`}
+              href={hrefPath}
               activeClassName="border-b border-primary"
               exact={serviceSlag === "/"}
               className="text-sm capitalize font-normal hover:border-b hover:border-primary py-1"

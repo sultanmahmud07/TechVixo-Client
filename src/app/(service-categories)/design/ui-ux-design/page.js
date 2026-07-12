@@ -1,38 +1,23 @@
-import ServiceDetails from "@/components/Pages/Services/ServiceDetails/ServiceDetails";
+import UiuxDesignPage from "@/components/Pages/Services/UiuxDesign/UiuxDesignPage";
 import SharedBanner from "@/components/Shared/ShareBanner/ShareBanner";
-import TopGap from "@/components/Shared/TopGap/TopGap"
-import getServiceByServiceName from "@/lib/getServiceByServiceName";
-import notFound from "@@/404-error.png"
-import Image from "next/image";
+import TopGap from "@/components/Shared/TopGap/TopGap";
 
+export const metadata = {
+  title: "UI & UX Design - Digimatric",
+  description: "At DigiMatric, we have a team of experts whose exceptional user experience (UX) design is the cornerstone of a successful digital product.",
+};
 
-const page = async ({ params }) => {
-  const data = await getServiceByServiceName(params?.slag);
-  // const data = null;
-  // console.log(data)
+const page = () => {
   return (
     <div className="">
       <TopGap></TopGap>
       <SharedBanner
-        title={data?.title}
-        description={data?.description}
+        title="User Experience (UX) Design"
+        description="At DigiMatric, we have a team of experts whose exceptional user experience (UX) design is the cornerstone of a successful digital product. From initial development and testing to final deployment,"
       ></SharedBanner>
-      {
-        data ?
-          <ServiceDetails data={data}></ServiceDetails>
-          :
-          <div className="flex items-center justify-center py-10 md:pt-24">
-            <Image
-              width={400}
-              height={400}
-              src={notFound}
-              alt={"not-found-image"}
-              className="w-32 md:w-40"
-            />
-          </div>
-      }
+      <UiuxDesignPage></UiuxDesignPage>
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default page;

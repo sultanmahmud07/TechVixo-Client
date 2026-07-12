@@ -108,7 +108,11 @@ const SubMenuForMobile = ({ setNavToggle, openSubMenus, subMenu }) => {
             </span>
             <NavLink
               onClick={() => setNavToggle(false)}
-              href={`/services/${categorySlag}`}
+              href={categorySlag === "design"
+                ? "/design"
+                : categorySlag === "search-engine-optimization-seo"
+                  ? "/search-engine-optimization-seo"
+                  : `/services/${categorySlag}`}
               activeClassName="text-primary font-semibold"
               className="hover:text-primary"
               exact={categorySlag === "/"}
