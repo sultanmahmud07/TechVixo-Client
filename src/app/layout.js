@@ -3,8 +3,9 @@ import './globals.css'
 import Navbar from '@/components/Shared/Navbar/Navbar'
 import Footer from '@/components/Shared/Footer/Footer'
 import Toaster from '@/components/Shared/Toaster'
-// import Footer from '@/components/Shared/Footer/Footer'
+import CursorTracker from '@/components/Shared/CursorTracker'
 
+import NextTopLoader from 'nextjs-toploader';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -18,10 +19,19 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         <main>
+          <NextTopLoader
+            color="#2ECC71"
+            height={3}
+            showSpinner={false}
+            crawl={true}
+            speed={200}
+            easing="ease"
+          />
           {children}
         </main>
         <Footer></Footer>
         <Toaster></Toaster>
+        <CursorTracker></CursorTracker>
       </body>
     </html>
   )

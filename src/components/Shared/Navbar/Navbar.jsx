@@ -16,6 +16,7 @@ const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);
   const [isRoot, setIsRoot] = useState(true);
   const [openSubMenus, setOpenSubMenus] = useState(false);
+  const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
   // const router = useRouter();
   const pathname = usePathname()
 
@@ -160,11 +161,20 @@ const Navbar = () => {
           } top-[4.5rem] flex w-full flex-col pb-3 pt-2 transition-all duration-300  lg:static lg:w-[unset] lg:flex-row bg-[#000000c0] lg:bg-transparent lg:pb-0 lg:pt-0 `}
         >
           <div className="hidden md:block">
-            <ul className="nav_manu w-full                                                            flex pl-10 md:pl-0 flex-col lg:flex-row items-start md:items-center justify-center py-1 gap-0 px-1 text-white">
+            <ul className="nav_manu w-full flex pl-10 md:pl-0 flex-col lg:flex-row items-start md:items-center justify-center py-1 gap-0 px-1 text-white">
               {navData.map(({ path, title, }) => (
-                <li key={path} className="">
+                <li
+                  key={path}
+                  onMouseEnter={() => path === "/services" && setServicesDropdownOpen(true)}
+                  onMouseLeave={() => path === "/services" && setServicesDropdownOpen(false)}
+                >
                   <NavLink
-                    onClick={() => setNavToggle(false)}
+                    onClick={() => {
+                      setNavToggle(false);
+                      if (path === "/services") {
+                        setServicesDropdownOpen(false);
+                      }
+                    }}
                     href={path}
                     activeClassName="text-primary bg-[#262626]"
                     exact={path === "/"}
@@ -172,13 +182,20 @@ const Navbar = () => {
                   >
                     {title}
                     {
-                      path == "/services" &&
+                      path === "/services" &&
                       <span className="arrow"></span>
                     }
                   </NavLink>
                   {
-                    path == "/services" &&
-                    <SubMenuBar navData={servicesData} setNavToggle={setNavToggle}></SubMenuBar>
+                    path === "/services" &&
+                    <SubMenuBar
+                      navData={servicesData}
+                      isOpen={servicesDropdownOpen}
+                      setNavToggle={(val) => {
+                        setNavToggle(val);
+                        setServicesDropdownOpen(val);
+                      }}
+                    />
                   }
                 </li>
               ))}
