@@ -53,52 +53,7 @@ const Navbar = () => {
     {
       path: "/services",
       title: "Services",
-      subManu: [
-        {
-          path: "/products",
-          title: "All Products",
-        },
-        {
-          path: "/products/passenger-elevator",
-          title: "Passenger Elevator",
-        },
-        {
-          path: "/products/home-elevator",
-          title: "Home Elevator",
-        },
-        {
-          path: "/products/panramic-elevator",
-          title: "Panoramic Elevator",
-        },
-        {
-          path: "/products/bed-elevator",
-          title: "Bed Elevator",
-        },
-        {
-          path: "/products/freight-elevator",
-          title: "Freight Elevator",
-        },
-        {
-          path: "/products/car-elevator",
-          title: "Car Elevator",
-        },
-        {
-          path: "/products/dumbwaiter-elevator",
-          title: "Dumbwaiter Elevator",
-        },
-        {
-          path: "/products/capsule-elevator",
-          title: "Capsule Elevator",
-        },
-        {
-          path: "/products/escalator",
-          title: "Escalator",
-        },
-        {
-          path: "/products/moving-walway",
-          title: "Moving Walkway",
-        },
-      ]
+      subManu: []
     },
     {
       path: "/works",
@@ -213,7 +168,7 @@ const Navbar = () => {
                     className="flex items-center justify-between gap-2 cursor-pointer"
                   >
                     {key?.title}
-                   
+
                     {openSubMenus ?
                       (
                         <span className="text-lg">

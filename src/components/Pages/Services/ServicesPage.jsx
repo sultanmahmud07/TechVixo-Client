@@ -1,6 +1,6 @@
 import ServiceCategory from "./ServiceCategory";
 
-const ServicesPage = ({services}) => {
+const ServicesPage = ({ services }) => {
   return (
     <div className="my-5 md:my-10">
       <div className="main_container">

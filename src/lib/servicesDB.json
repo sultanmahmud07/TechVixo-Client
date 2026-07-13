@@ -2,7 +2,7 @@
   {
     "category_id": 1,
     "category_name": "Design",
-    "description": "Digimatric's design services focus on creating stunning, user-centric designs that captivate your audience and elevate your brand. We believe that great design is about aesthetics and creating seamless, intuitive user experiences.",
+    "description": "Digimatric's design services focus on creating stunning, user-centric designs that captivate your audience and elevate your brand.",
     "category_link": "/design",
     "button": "Our design services include:",
     "services": [
@@ -55,275 +55,46 @@
           },
           {
             "id": 4,
-            "title": "Marketing collateral design (brochures, business cards, etc.).",
+            "title": "Marketing collateral design.",
             "icon": ""
           }
         ]
-      }
-    ],
-    "welcomeSection": {
-      "title": "Transform Your Website into a Robust Professional Communication Tool",
-      "description": [
-        "Your website is more than just a digital presence; it is your brand's most visible and valuable salesperson. From the moment visitors land on your site, they begin forming opinions about your business. Every detail—from the design to the user experience (UX), copy, mobile performance, and page load speeds—must instill trust and confidence.",
-        "At DigiMatric, we specialize in transforming websites into high-performing, visually stunning platforms that reflect the quality of your business. We optimize your digital presence to ensure you:"
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver an Exceptional User Experience (UX)",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Ensure Smooth, Efficient Operations",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Drive more online leads, conversions, and sales.",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
       },
       {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "aboutServices": {
-      "title": "About Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
+        "service_id": 3,
+        "service_name": "Graphic Design & Illustration",
+        "service_icon": "/assets/images/home/service/new-design-icon.png",
+        "sub_services": [
           {
             "id": 1,
-            "facility": "1x active task at a time"
+            "title": "Custom vector illustrations and digital art.",
+            "icon": ""
           },
           {
             "id": 2,
-            "facility": "1x active task at a time"
+            "title": "Social media graphics and advertising banners.",
+            "icon": ""
           },
           {
             "id": 3,
-            "facility": "1x active task at a time"
+            "title": "Print design for brochures, flyers, and packaging.",
+            "icon": ""
           },
           {
             "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
+            "title": "Motion graphics and short-form animations.",
+            "icon": ""
           }
         ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
       }
     ],
     "serviceFAQ": [
       {
         "id": 1,
         "question": "What services does DigiMatric provide?",
-        "answer": "We offer various digital design services, including UX/UI design, web development, mobile app development, branding & identity, and more, all focused on delivering tailored solutions that meet your business objectives."
-      },
-      {
-        "id": 2,
-        "question": "How can DigiMatric help my business?",
-        "answer": "DigiMatric can help your business by improving your digital presence with effective UX/UI design, responsive websites, and brand-building strategies that drive engagement and increase conversions."
-      },
-      {
-        "id": 3,
-        "question": "What industries does DigiMatric work with?",
-        "answer": "We work with various industries, including e-commerce, healthcare, finance, education, and real estate. Our experience in these sectors allows us to tailor our design solutions to meet the specific needs of each industry, ensuring the best results for your business."
-      },
-      {
-        "id": 4,
-        "question": "Do you offer ongoing support and maintenance after completing the project?",
-        "answer": "Yes! DigiMatric offers post-launch maintenance and support services to ensure that your website or app continues to perform optimally and remains up to date with new features and updates. You can rest assured that we will be there for you even after the project is completed."
-      },
-      {
-        "id": 5,
-        "question": "Can you work with existing design or development frameworks?",
-        "answer": "Absolutely! We can integrate with existing design or development frameworks and collaborate with your team to enhance your setup."
-      },
-      {
-        "id": 6,
-        "question": "How involved will I be in the project development process?",
-        "answer": "We believe in strong collaboration. You, as our client, will be involved in every key decision throughout the design process, ensuring the project aligns with your vision and business goals."
-      },
-      {
-        "id": 7,
-        "question": "Can you help with website or app maintenance and updates?",
-        "answer": "DigiMatric offers comprehensive maintenance and update services to ensure your digital presence remains secure, up-to-date, and performing at its best."
+        "answer": "We offer various digital design services, including UX/UI design, web development, mobile app development, branding & identity, and more."
       }
-    ],    
-    "serviceDetailPage": {
-    }
+    ]
   },
   {
     "category_id": 2,
@@ -343,17 +114,12 @@
           },
           {
             "id": 2,
-            "title": "Back-end development (PHP, Python, Ruby)",
+            "title": "Back-end development (PHP, Python, Node.js)",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Content Management System (CMS) development (WordPress, Drupal).",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "E-commerce platform development (Magento, Shopify).",
+            "title": "Content Management System (CMS) development.",
             "icon": ""
           }
         ]
@@ -374,11 +140,6 @@
           },
           {
             "id": 3,
-            "title": "UI/UX design integration.",
-            "icon": ""
-          },
-          {
-            "id": 4,
             "title": "App testing, deployment, and maintenance.",
             "icon": ""
           }
@@ -395,535 +156,24 @@
           },
           {
             "id": 2,
-            "title": "Custom web application development.",
-            "icon": ""
-          },
-          {
-            "id": 3,
             "title": "Integration with third-party APIs and systems.",
             "icon": ""
           },
           {
-            "id": 4,
+            "id": 3,
             "title": "Legacy system modernization and migration.",
             "icon": ""
           }
         ]
       }
-    ],
-    "welcomeSection": {
-      "title": "Your website is your brand's most visible and valuable salesperson.",
-      "description": [
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do."
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
-      },
-      {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "subServicesList": {
-      "title": "Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "aboutServices": {
-      "title": "Development Services",
-      "description": "",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface (UI)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
-      }
-    ],
-    "serviceDetailPage": {}
+    ]
   },
   {
     "category_id": 3,
     "category_name": "Project Management",
     "description": "Our project management team ensures successful project delivery on time and within budget.",
-    "category_link": "/digital-marketing",
+    "category_link": "/project-management",
     "button": "Our project management services include:",
-    "welcomeSection": {
-      "title": "Your website is your brand's most visible and valuable salesperson.",
-      "description": [
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do."
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
-      },
-      {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "subServicesList": {
-      "title": "Our Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "aboutServices": {
-      "title": "Development Services",
-      "description": "",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface (UI)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
-      }
-    ],
-    "serviceDetailPage": {},
     "services": [
       {
         "service_id": 1,
@@ -941,11 +191,6 @@
           },
           {
             "id": 3,
-            "title": "Resource allocation and task assignment.",
-            "icon": ""
-          },
-          {
-            "id": 4,
             "title": "Risk assessment and mitigation strategies.",
             "icon": ""
           }
@@ -967,11 +212,6 @@
           },
           {
             "id": 3,
-            "title": "Regular progress updates and demos.",
-            "icon": ""
-          },
-          {
-            "id": 4,
             "title": "Continuous improvement and feedback incorporation.",
             "icon": ""
           }
@@ -993,11 +233,6 @@
           },
           {
             "id": 3,
-            "title": "Performance and security testing.",
-            "icon": ""
-          },
-          {
-            "id": 4,
             "title": "Bug tracking and issue resolution.",
             "icon": ""
           }
@@ -1008,467 +243,74 @@
   {
     "category_id": 4,
     "category_name": "Search Engine Optimization (SEO)",
-    "description": "Drive sustainable growth with expert digital marketing services tailored to your goals.",
-    "category_link": "/content-marketing",
-    "button": "Our Search Engine Optimization (SEO) include:",
-    "welcomeSection": {
-      "title": "Your website is your brand's most visible and valuable salesperson.",
-      "description": [
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do."
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
-      },
-      {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "subServicesList": {
-      "title": "Our Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "aboutServices": {
-      "title": "Development Services",
-      "description": "",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface (UI)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
-      }
-    ],
-    "serviceDetailPage": {},
+    "description": "Drive sustainable organic growth with expert SEO services tailored to your goals.",
+    "category_link": "/seo",
+    "button": "Our SEO services include:",
     "services": [
       {
         "service_id": 1,
-        "service_name": "Local SEO",
+        "service_name": "Technical SEO",
         "sub_services": [
           {
             "id": 1,
-            "title": "Local SEO.",
+            "title": "Site speed optimization.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "Technical SEO.",
+            "title": "XML sitemaps and schema markup.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Off-page SEO.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Shopify SEO and Amazon SEO.",
+            "title": "Crawlability and indexation troubleshooting.",
             "icon": ""
           }
         ]
       },
       {
         "service_id": 2,
-        "service_name": "Technical SEO",
+        "service_name": "On-Page & Local SEO",
         "sub_services": [
           {
             "id": 1,
-            "title": "Local SEO.",
+            "title": "Keyword research and mapping.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "Technical SEO.",
+            "title": "Meta tag optimization.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Off-page SEO.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Shopify SEO and Amazon SEO.",
+            "title": "Google My Business (GMB) optimization.",
             "icon": ""
           }
         ]
       },
       {
         "service_id": 3,
-        "service_name": "Off-page SEO",
+        "service_name": "SEO Audits & Strategy",
         "sub_services": [
           {
             "id": 1,
-            "title": "Local SEO.",
+            "title": "Comprehensive website health and performance audits.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "Technical SEO.",
+            "title": "In-depth competitor keyword and gap analysis.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Off-page SEO.",
+            "title": "Backlink profile auditing and penalty recovery.",
             "icon": ""
           },
           {
             "id": 4,
-            "title": "Shopify SEO and Amazon SEO.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 4,
-        "service_name": "Shopify SEO and Amazon SEO",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Local SEO.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Technical SEO.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Off-page SEO.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Shopify SEO and Amazon SEO.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 5,
-        "service_name": "White hat SEO techniques",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Local SEO.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Technical SEO.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Off-page SEO.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Shopify SEO and Amazon SEO.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 6,
-        "service_name": "SEO audits and competitor analysis",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Local SEO.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Technical SEO.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Off-page SEO.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Shopify SEO and Amazon SEO.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 7,
-        "service_name": "Semantic SEO and GMB optimization",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Local SEO.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Technical SEO.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Off-page SEO.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Shopify SEO and Amazon SEO",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 8,
-        "service_name": "International SEO and enterprise SEO audits",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Local SEO.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Technical SEO.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Off-page SEO.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Shopify SEO and Amazon SEO.",
+            "title": "Long-term SEO roadmapping and content strategy.",
             "icon": ""
           }
         ]
@@ -1479,264 +321,11 @@
     "category_id": 5,
     "category_name": "Digital Marketing",
     "description": "Drive sustainable growth with expert digital marketing services tailored to your goals.",
-    "category_link": "/content-marketing",
+    "category_link": "/digital-marketing",
     "button": "Our digital marketing services include:",
-    "welcomeSection": {
-      "title": "Your website is your brand's most visible and valuable salesperson.",
-      "description": [
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do."
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
-      },
-      {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "subServicesList": {
-      "title": "Our Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "aboutServices": {
-      "title": "Development Services",
-      "description": "",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface (UI)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
-      }
-    ],
-    "serviceDetailPage": {},
     "services": [
       {
-        "service_id": 2,
+        "service_id": 1,
         "service_name": "Pay Per Click (PPC) Marketing",
         "sub_services": [
           {
@@ -1751,23 +340,13 @@
           },
           {
             "id": 3,
-            "title": "Programmatic advertising.",
-            "icon": ""
-          },
-          {
-            "id": 4,
             "title": "Lead generation services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Amazon advertising/PPC.",
             "icon": ""
           }
         ]
       },
       {
-        "service_id": 3,
+        "service_id": 2,
         "service_name": "Social Media Marketing",
         "sub_services": [
           {
@@ -1777,12 +356,7 @@
           },
           {
             "id": 2,
-            "title": "Enterprise social media solutions.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Social media advertising (Facebook, LinkedIn, Twitter, Instagram, YouTube).",
+            "title": "Social media advertising (Facebook, LinkedIn, Instagram).",
             "icon": ""
           }
         ]
@@ -1793,492 +367,47 @@
     "category_id": 6,
     "category_name": "Link Building",
     "description": "Boost your website's authority and visibility with strategic link-building services.",
-    "category_link": "/content-marketing",
+    "category_link": "/link-building",
     "button": "Our link-building services include:",
-    "welcomeSection": {
-      "title": "Your website is your brand's most visible and valuable salesperson.",
-      "description": [
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do."
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
-      },
-      {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "subServicesList": {
-      "title": "Our Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "aboutServices": {
-      "title": "Development Services",
-      "description": "",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface (UI)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
-      }
-    ],
-    "serviceDetailPage": {},
     "services": [
       {
         "service_id": 1,
-        "service_name": "Guest posting services.",
+        "service_name": "Outreach & Guest Posting",
         "sub_services": [
           {
             "id": 1,
-            "title": "Guest posting services",
+            "title": "High-authority guest posting.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "Digital PR outreach",
+            "title": "Digital PR outreach.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "HARO link building",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations",
+            "title": "HARO (Help A Reporter Out) link building.",
             "icon": ""
           }
         ]
       },
       {
         "service_id": 2,
-        "service_name": "Digital PR outreach.",
+        "service_name": "Technical Link Acquisition",
         "sub_services": [
           {
             "id": 1,
-            "title": "Guest posting services.",
+            "title": "Broken link reclamation.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "Digital PR outreach.",
+            "title": "Competitor backlink analysis and replication.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 3,
-        "service_name": "HARO link building.",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Guest posting services.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Digital PR outreach.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 4,
-        "service_name": "Tier link building and citations.",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Guest posting services.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Digital PR outreach.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 5,
-        "service_name": "Competitor backlink analysis and replication.",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Guest posting services.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Digital PR outreach.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 6,
-        "service_name": "Broken link reclamation.",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Guest posting services.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Digital PR outreach.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 7,
-        "service_name": "Local directory submissions and niche edits.",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Guest posting services.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Digital PR outreach.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 8,
-        "service_name": "Forum and community link building.",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Guest posting services.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Digital PR outreach.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 9,
-        "service_name": "Content syndication for link building.",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "Guest posting services.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Digital PR outreach.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "HARO link building.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Tier link building and citations.",
+            "title": "Tiered link building and local citations.",
             "icon": ""
           }
         ]
@@ -2289,413 +418,47 @@
     "category_id": 7,
     "category_name": "Content Writing",
     "description": "Attract and retain customers with impactful content marketing solutions.",
-    "category_link": "/content-marketing",
-    "button": "Our content marketing services include",
-    "welcomeSection": {
-      "title": "Your website is your brand's most visible and valuable salesperson.",
-      "description": [
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do."
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
-      },
-      {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "subServicesList": {
-      "title": "Our Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "aboutServices": {
-      "title": "Development Services",
-      "description": "",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface (UI)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
-      }
-    ],
-    "serviceDetailPage": {},
+    "category_link": "/content-writing",
+    "button": "Our content marketing services include:",
     "services": [
       {
         "service_id": 1,
-        "service_name": "SEO content writing",
+        "service_name": "Copywriting & SEO Content",
         "sub_services": [
           {
             "id": 1,
-            "title": "SEO content writing",
+            "title": "Long-form SEO blog writing.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "Copywriting services",
+            "title": "Website landing page copywriting.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Translation services",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Email marketing services",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Outbound marketing campaigns",
+            "title": "Product description writing.",
             "icon": ""
           }
         ]
       },
       {
         "service_id": 2,
-        "service_name": "Copywriting services",
+        "service_name": "Campaign Content",
         "sub_services": [
           {
             "id": 1,
-            "title": "SEO content writing.",
+            "title": "Email marketing drip campaigns.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "Copywriting services.",
+            "title": "Outbound marketing copy.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Translation services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Email marketing services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Outbound marketing campaigns.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 3,
-        "service_name": "Translation services",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "SEO content writing.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Copywriting services.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Translation services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Email marketing services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Outbound marketing campaigns.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 4,
-        "service_name": "Email marketing services",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "SEO content writing.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Copywriting services.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Translation services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Email marketing services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Outbound marketing campaigns.",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 5,
-        "service_name": "Outbound marketing campaigns",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "SEO content writing.",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "Copywriting services.",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Translation services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Email marketing services.",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Outbound marketing campaigns.",
+            "title": "Translation and localization services.",
             "icon": ""
           }
         ]
@@ -2705,363 +468,48 @@
   {
     "category_id": 8,
     "category_name": "E-Commerce Marketing",
-    "description": "Maximize revenue with expert e-commerce marketing services",
-    "category_link": "/content-marketing",
-    "button": "Our e-commerce marketing services include",
-    "welcomeSection": {
-      "title": "Your website is your brand's most visible and valuable salesperson.",
-      "description": [
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do."
-      ],
-      "subTitle": "When your website is performing and looking its best, you will:",
-      "subServices": [
-        {
-          "id": 1,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/1.svg"
-        },
-        {
-          "id": 2,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/2.svg"
-        },
-        {
-          "id": 3,
-          "title": "Deliver a Beautiful User Experience",
-          "icon": "/assets/images/services/category/design/icon/3.svg"
-        }
-      ]
-    },
-    "serviceClients": [
-      {
-        "id": 1,
-        "title": "",
-        "img": "/assets/images/home/client/1.png"
-      },
-      {
-        "id": 2,
-        "title": "",
-        "img": "/assets/images/home/client/2.png"
-      },
-      {
-        "id": 3,
-        "title": "",
-        "img": "/assets/images/home/client/3.png"
-      },
-      {
-        "id": 4,
-        "title": "",
-        "img": "/assets/images/home/client/4.png"
-      },
-      {
-        "id": 5,
-        "title": "",
-        "img": "/assets/images/home/client/5.png"
-      }
-    ],
-    "subServicesList": {
-      "title": "Our Design Services",
-      "description": "We offer a full spectrum of design services that combine creativity with technology to enhance your online presence. Whether you want to revamp your website or create a fresh brand identity, our Team has the expertise to deliver results that exceed expectations.",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX) Design",
-          "des": "Our UX design process focuses on crafting intuitive, user-friendly experiences that drive engagement. We begin with in-depth user research and persona development to ensure user needs and behaviors inform every design decision. From wireframing and prototyping to usability testing, we ensure your website or app is seamless and straightforward to navigate.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface Design (UI)",
-          "des": "Your website's visual appeal is just as crucial as its usability. Our UI design service creates aesthetically pleasing and functional interfaces that reflect your brand’s identity and resonate with your target audience. By leveraging modern design trends and focusing on responsive layouts, we create beautiful interfaces that enhance the user experience across all devices.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity Design",
-          "des": "Your brand is your business’s personality. We help you establish a consistent identity with various branding services, from logo design and color schemes to typography and brand guidelines. Our branding solutions are designed to help you stand out in a crowded market and create a memorable impression that builds trust with your customers.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "aboutServices": {
-      "title": "Development Services",
-      "description": "",
-      "servicesList": [
-        {
-          "id": 1,
-          "title": "User Experience (UX)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/1.png",
-          "link": "/"
-        },
-        {
-          "id": 2,
-          "title": "User Interface (UI)",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/2.png",
-          "link": "/"
-        },
-        {
-          "id": 3,
-          "title": "Branding & Identity",
-          "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "icon": "/assets/images/services/category/design/service-icon/3.png",
-          "link": "/"
-        }
-      ]
-    },
-    "servicePrices": [
-      {
-        "id": 1,
-        "name": "Standard",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Growth",
-        "label": "Most Popular",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Basic - Weekly",
-        "label": "",
-        "des": "One request at a time. For companies who need on-going design support.",
-        "price": "2,995",
-        "condition": "Pause or cancel anytime",
-        "phone": "01984673672",
-        "facilities": [
-          {
-            "id": 1,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 2,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 3,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 4,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 5,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 6,
-            "facility": "1x active task at a time"
-          },
-          {
-            "id": 7,
-            "facility": "1x active task at a time"
-          }
-        ]
-      }
-    ],
-    "latestDesignForService": [
-      {
-        "id": 1,
-        "img": "/assets/images/home/our-work/1.png"
-      },
-      {
-        "id": 2,
-        "img": "/assets/images/home/our-work/2.png"
-      },
-      {
-        "id": 3,
-        "img": "/assets/images/home/our-work/3.png"
-      },
-      {
-        "id": 4,
-        "img": "/assets/images/home/our-work/4.png"
-      },
-      {
-        "id": 5,
-        "img": "/assets/images/home/our-work/5.png"
-      },
-      {
-        "id": 6,
-        "img": "/assets/images/home/our-work/6.png"
-      }
-    ],
-    "serviceDetailPage": {},
+    "description": "Maximize revenue with expert e-commerce marketing services.",
+    "category_link": "/ecommerce-marketing",
+    "button": "Our e-commerce marketing services include:",
     "services": [
       {
         "service_id": 1,
-        "service_name": "E-commerce SEO for enhanced visibility",
+        "service_name": "E-Commerce Optimization",
         "sub_services": [
           {
             "id": 1,
-            "title": "E-commerce SEO for enhanced visibility",
+            "title": "E-commerce SEO for enhanced visibility.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "E-commerce PPC for targeted campaigns",
+            "title": "Shopify web design and optimization.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Shopify web design and optimization",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Custom e-commerce design and seamless shopping experiences",
+            "title": "Conversion Rate Optimization (CRO).",
             "icon": ""
           }
         ]
       },
       {
         "service_id": 2,
-        "service_name": "E-commerce PPC for targeted campaigns",
+        "service_name": "E-Commerce Advertising",
         "sub_services": [
           {
             "id": 1,
-            "title": "E-commerce SEO for enhanced visibility",
+            "title": "E-commerce PPC for targeted campaigns.",
             "icon": ""
           },
           {
             "id": 2,
-            "title": "E-commerce PPC for targeted campaigns",
+            "title": "Google Shopping feed management.",
             "icon": ""
           },
           {
             "id": 3,
-            "title": "Shopify web design and optimization",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Custom e-commerce design and seamless shopping experiences",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 3,
-        "service_name": "Shopify web design and optimization",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "E-commerce SEO for enhanced visibility",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "E-commerce PPC for targeted campaigns",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Shopify web design and optimization",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Custom e-commerce design and seamless shopping experiences",
-            "icon": ""
-          }
-        ]
-      },
-      {
-        "service_id": 1,
-        "service_name": "Custom e-commerce design and seamless shopping experiences",
-        "sub_services": [
-          {
-            "id": 1,
-            "title": "E-commerce SEO for enhanced visibility",
-            "icon": ""
-          },
-          {
-            "id": 2,
-            "title": "E-commerce PPC for targeted campaigns",
-            "icon": ""
-          },
-          {
-            "id": 3,
-            "title": "Shopify web design and optimization",
-            "icon": ""
-          },
-          {
-            "id": 4,
-            "title": "Custom e-commerce design and seamless shopping experiences",
+            "title": "Amazon Advertising.",
             "icon": ""
           }
         ]
