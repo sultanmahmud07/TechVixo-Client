@@ -1,27 +1,30 @@
-import Image from "next/image";
-import icon from "@@/images/services/category/why-need-service-icon.svg";
+import { FaUserCheck, FaMagic, FaChartLine, FaMobileAlt } from "react-icons/fa";
 
 const WhyNeedThisService = () => {
   const facilities = [
     {
       id: 1,
       title: "Deliver Exceptional UX",
-      description: "Craft intuitive, seamless user experiences that keep visitors engaged, minimize user friction, and reduce bounce rates."
+      description: "Craft intuitive, seamless user experiences that keep visitors engaged, minimize user friction, and reduce bounce rates.",
+      icon: FaUserCheck
     },
     {
       id: 2,
       title: "Aesthetic Visual Appeal",
-      description: "Create modern, visually stunning interfaces that align with your brand guidelines and establish immediate user trust."
+      description: "Create modern, visually stunning interfaces that align with your brand guidelines and establish immediate user trust.",
+      icon: FaMagic
     },
     {
       id: 3,
       title: "Drive Higher Conversions",
-      description: "Optimize component placement, navigation patterns, and call-to-actions to turn visitors into leads and customers."
+      description: "Optimize component placement, navigation patterns, and call-to-actions to turn visitors into leads and customers.",
+      icon: FaChartLine
     },
     {
       id: 4,
       title: "Responsive Across Devices",
-      description: "Ensure flawless design scaling, accessibility, and loading speeds on smartphones, tablets, and desktops."
+      description: "Ensure flawless design scaling, accessibility, and loading speeds on smartphones, tablets, and desktops.",
+      icon: FaMobileAlt
     }
   ];
 
@@ -37,21 +40,18 @@ const WhyNeedThisService = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5 pt-3 md:pt-6">
-          {facilities.map((facility, i) => (
-            <div key={i} className="need_card bg-white flex flex-col items-center gap-1 p-2 md:p-3 border border-primary shadow md:shadow-lg">
-              <div className="service_icon bg-[#2ECC711A] w-16 md:w-20 p-3">
-                <Image
-                  src={icon}
-                  alt={facility.title}
-                  width={200}
-                  height={200}
-                  className="w-full"
-                />
+          {facilities.map((facility, i) => {
+            const FacilityIcon = facility.icon;
+            return (
+              <div key={i} className="need_card bg-white flex flex-col items-center gap-1 p-4 border border-primary shadow md:shadow-lg rounded-xl">
+                <div className="service_icon bg-[#2ECC711A] w-16 h-16 rounded-xl flex items-center justify-center mb-2">
+                  <FacilityIcon className="text-[#2ECC71] text-2xl" />
+                </div>
+                <h3 className="text-center text-base md:text-lg font-bold text-[#111204]">{facility.title}</h3>
+                <p className="text-center text-sm">{facility.description}</p>
               </div>
-              <h3 className="text-center text-base md:text-lg font-bold text-[#111204]">{facility.title}</h3>
-              <p className="text-center text-sm">{facility.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

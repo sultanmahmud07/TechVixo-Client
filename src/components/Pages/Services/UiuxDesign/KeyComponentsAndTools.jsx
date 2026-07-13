@@ -1,6 +1,6 @@
 import Image from "next/image";
 import img from "@@/images/services/category/key-img.png";
-import icon from "@@/images/services/details-image/check-icon.svg";
+import { FaCheck } from "react-icons/fa";
 
 const KeyComponentsAndTools = () => {
   const keyData = [
@@ -54,15 +54,11 @@ const KeyComponentsAndTools = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-3 my-4">
             {keyData.map((facility, i) => (
-              <div key={i} className="key_card w-full flex gap-2">
-                <div className="key_icon w-8 pt-1 flex-shrink-0">
-                  <Image
-                    src={icon}
-                    alt="check icon"
-                    width={50}
-                    height={50}
-                    className="w-full"
-                  />
+              <div key={i} className="key_card w-full flex gap-3">
+                <div className="key_icon pt-1 flex-shrink-0">
+                  <div className="bg-[#2ECC711A] w-8 h-8 rounded-lg flex items-center justify-center">
+                    <FaCheck className="text-[#2ECC71] text-xs" />
+                  </div>
                 </div>
                 <div className="">
                   <h3 className="font-semibold mb-2 md:text-lg">{facility.title}</h3>

@@ -1,12 +1,18 @@
-import Image from "next/image";
-import serviceIcon from "@@/images/services/service-icon.svg";
 import Link from "next/link";
 import generateSlug from "@/components/Shared/generateSlug";
+import * as Icons from "react-icons/fa";
 
 const ServiceCategory = ({ data }) => {
-  const { category_id, button, category_name, description, services } = data;
-const  slug = generateSlug(data?.category_name)
-  // console.log("serviceData:", slug)
+  const { button, category_name, description, services } = data;
+  const slug = generateSlug(data?.category_name)
+  const renderIcon = (iconName) => {
+    const IconComponent = Icons[iconName];
+    if (IconComponent) {
+      return <IconComponent className="text-primary text-xl" />;
+    }
+    return <Icons.FaLaptopCode className="text-primary text-xl" />;
+  };
+
   return (
     <div>
       <div className="flex flex-col gap-3 md:gap-5 my-3">
@@ -17,7 +23,7 @@ const  slug = generateSlug(data?.category_name)
           {description}
         </p>
         <Link
-          href={`/services/${slug}`}
+          href={`/${slug}`}
         >
           <button type="button" className="inline-block text-sm shadow md:shadow-md bg-secondary p-2 px-3 md:px-10 rounded-md text-[#FFFFFF]">{button}</button>
         </Link>
@@ -35,14 +41,9 @@ const  slug = generateSlug(data?.category_name)
                     service?.sub_services?.map((item, i) => {
                       return (
                         <div key={i} className="service_item bg-white p-2 md:p-4 rounded">
-                         <div className="bg-[#00a31613] w-16 rounded flex items-center justify-center p-4">
-                         <Image
-                            width={100}
-                            src={serviceIcon}
-                            alt={item?.title}
-                            className="w-full"
-                          />
-                         </div>
+                          <div className="bg-primary/10 w-12 h-12 rounded-xl flex items-center justify-center">
+                            {renderIcon(item?.icon)}
+                          </div>
                           <h6
                             style={
                               {

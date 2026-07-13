@@ -14,22 +14,22 @@
           {
             "id": 1,
             "title": "Intuitive and visually appealing interface design.",
-            "icon": ""
+            "icon": "FaPalette"
           },
           {
             "id": 2,
             "title": "Custom iconography and illustration.",
-            "icon": ""
+            "icon": "FaPenNib"
           },
           {
             "id": 3,
             "title": "Typography and color palette selection.",
-            "icon": ""
+            "icon": "FaFont"
           },
           {
             "id": 4,
             "title": "Responsive design for various devices.",
-            "icon": ""
+            "icon": "FaMobileAlt"
           }
         ]
       },
@@ -41,22 +41,22 @@
           {
             "id": 1,
             "title": "Logo design and visual identity development.",
-            "icon": ""
+            "icon": "FaCrown"
           },
           {
             "id": 2,
             "title": "Brand strategy and positioning.",
-            "icon": ""
+            "icon": "FaShieldAlt"
           },
           {
             "id": 3,
             "title": "Brand guidelines and style guides.",
-            "icon": ""
+            "icon": "FaBook"
           },
           {
             "id": 4,
             "title": "Marketing collateral design.",
-            "icon": ""
+            "icon": "FaBriefcase"
           }
         ]
       },
@@ -68,22 +68,22 @@
           {
             "id": 1,
             "title": "Custom vector illustrations and digital art.",
-            "icon": ""
+            "icon": "FaPaintBrush"
           },
           {
             "id": 2,
             "title": "Social media graphics and advertising banners.",
-            "icon": ""
+            "icon": "FaEye"
           },
           {
             "id": 3,
             "title": "Print design for brochures, flyers, and packaging.",
-            "icon": ""
+            "icon": "FaPrint"
           },
           {
             "id": 4,
             "title": "Motion graphics and short-form animations.",
-            "icon": ""
+            "icon": "FaSync"
           }
         ]
       }
@@ -110,17 +110,22 @@
           {
             "id": 1,
             "title": "Front-end development (HTML, CSS, JavaScript)",
-            "icon": ""
+            "icon": "FaLaptopCode"
           },
           {
             "id": 2,
             "title": "Back-end development (PHP, Python, Node.js)",
-            "icon": ""
+            "icon": "FaCode"
           },
           {
             "id": 3,
             "title": "Content Management System (CMS) development.",
-            "icon": ""
+            "icon": "FaFileAlt"
+          },
+          {
+            "id": 4,
+            "title": "E-commerce platform development (Shopify, WooCommerce).",
+            "icon": "FaShoppingCart"
           }
         ]
       },
@@ -131,17 +136,22 @@
           {
             "id": 1,
             "title": "Native iOS and Android app development.",
-            "icon": ""
+            "icon": "FaMobileAlt"
           },
           {
             "id": 2,
             "title": "Cross-platform app development (React Native, Flutter).",
-            "icon": ""
+            "icon": "FaClone"
           },
           {
             "id": 3,
             "title": "App testing, deployment, and maintenance.",
-            "icon": ""
+            "icon": "FaClipboardCheck"
+          },
+          {
+            "id": 4,
+            "title": "Hybrid app development and UI integration.",
+            "icon": "FaTools"
           }
         ]
       },
@@ -152,17 +162,22 @@
           {
             "id": 1,
             "title": "Enterprise software development.",
-            "icon": ""
+            "icon": "FaDatabase"
           },
           {
             "id": 2,
             "title": "Integration with third-party APIs and systems.",
-            "icon": ""
+            "icon": "FaLink"
           },
           {
             "id": 3,
             "title": "Legacy system modernization and migration.",
-            "icon": ""
+            "icon": "FaSync"
+          },
+          {
+            "id": 4,
+            "title": "Custom web application and cloud architecture design.",
+            "icon": "FaLaptopCode"
           }
         ]
       }
@@ -182,17 +197,22 @@
           {
             "id": 1,
             "title": "Requirements analysis and gathering.",
-            "icon": ""
+            "icon": "FaSearch"
           },
           {
             "id": 2,
             "title": "Roadmap and timeline development.",
-            "icon": ""
+            "icon": "FaProjectDiagram"
           },
           {
             "id": 3,
             "title": "Risk assessment and mitigation strategies.",
-            "icon": ""
+            "icon": "FaShieldAlt"
+          },
+          {
+            "id": 4,
+            "title": "Resource allocation and budget mapping.",
+            "icon": "FaTasks"
           }
         ]
       },
@@ -203,17 +223,22 @@
           {
             "id": 1,
             "title": "Iterative development and sprints",
-            "icon": ""
+            "icon": "FaSync"
           },
           {
             "id": 2,
             "title": "Scrum or Kanban methodology implementation.",
-            "icon": ""
+            "icon": "FaTasks"
           },
           {
             "id": 3,
             "title": "Continuous improvement and feedback incorporation.",
-            "icon": ""
+            "icon": "FaHeart"
+          },
+          {
+            "id": 4,
+            "title": "Sprint retrospective and demo reporting.",
+            "icon": "FaFileAlt"
           }
         ]
       },
@@ -224,17 +249,22 @@
           {
             "id": 1,
             "title": "Test planning and execution.",
-            "icon": ""
+            "icon": "FaClipboardCheck"
           },
           {
             "id": 2,
             "title": "Functional and usability testing.",
-            "icon": ""
+            "icon": "FaUserCheck"
           },
           {
             "id": 3,
             "title": "Bug tracking and issue resolution.",
-            "icon": ""
+            "icon": "FaTools"
+          },
+          {
+            "id": 4,
+            "title": "Automated regression and performance testing.",
+            "icon": "FaCheck"
           }
         ]
       }
@@ -254,17 +284,22 @@
           {
             "id": 1,
             "title": "Site speed optimization.",
-            "icon": ""
+            "icon": "FaTools"
           },
           {
             "id": 2,
             "title": "XML sitemaps and schema markup.",
-            "icon": ""
+            "icon": "FaSitemap"
           },
           {
             "id": 3,
             "title": "Crawlability and indexation troubleshooting.",
-            "icon": ""
+            "icon": "FaBug"
+          },
+          {
+            "id": 4,
+            "title": "Robots.txt and canonical tag audits.",
+            "icon": "FaFileAlt"
           }
         ]
       },
@@ -275,17 +310,22 @@
           {
             "id": 1,
             "title": "Keyword research and mapping.",
-            "icon": ""
+            "icon": "FaSearch"
           },
           {
             "id": 2,
             "title": "Meta tag optimization.",
-            "icon": ""
+            "icon": "FaPalette"
           },
           {
             "id": 3,
             "title": "Google My Business (GMB) optimization.",
-            "icon": ""
+            "icon": "FaGoogle"
+          },
+          {
+            "id": 4,
+            "title": "Content optimization and header hierarchy.",
+            "icon": "FaFont"
           }
         ]
       },
@@ -296,22 +336,22 @@
           {
             "id": 1,
             "title": "Comprehensive website health and performance audits.",
-            "icon": ""
+            "icon": "FaClipboardCheck"
           },
           {
             "id": 2,
             "title": "In-depth competitor keyword and gap analysis.",
-            "icon": ""
+            "icon": "FaChartLine"
           },
           {
             "id": 3,
             "title": "Backlink profile auditing and penalty recovery.",
-            "icon": ""
+            "icon": "FaLink"
           },
           {
             "id": 4,
             "title": "Long-term SEO roadmapping and content strategy.",
-            "icon": ""
+            "icon": "FaBookOpen"
           }
         ]
       }
@@ -331,17 +371,22 @@
           {
             "id": 1,
             "title": "Search Engine Marketing (SEM).",
-            "icon": ""
+            "icon": "FaSearchDollar"
           },
           {
             "id": 2,
             "title": "Google Ads and YouTube Ads management.",
-            "icon": ""
+            "icon": "FaGoogle"
           },
           {
             "id": 3,
             "title": "Lead generation services.",
-            "icon": ""
+            "icon": "FaBullhorn"
+          },
+          {
+            "id": 4,
+            "title": "Retargeting and display ads management.",
+            "icon": "FaAd"
           }
         ]
       },
@@ -352,12 +397,22 @@
           {
             "id": 1,
             "title": "Social media management and brand management.",
-            "icon": ""
+            "icon": "FaUsers"
           },
           {
             "id": 2,
             "title": "Social media advertising (Facebook, LinkedIn, Instagram).",
-            "icon": ""
+            "icon": "FaLink"
+          },
+          {
+            "id": 3,
+            "title": "Social media content curation and graphics.",
+            "icon": "FaPalette"
+          },
+          {
+            "id": 4,
+            "title": "Brand ambassador and influencer campaigns.",
+            "icon": "FaCrown"
           }
         ]
       }
@@ -377,17 +432,22 @@
           {
             "id": 1,
             "title": "High-authority guest posting.",
-            "icon": ""
+            "icon": "FaLink"
           },
           {
             "id": 2,
             "title": "Digital PR outreach.",
-            "icon": ""
+            "icon": "FaBullhorn"
           },
           {
             "id": 3,
             "title": "HARO (Help A Reporter Out) link building.",
-            "icon": ""
+            "icon": "FaFileAlt"
+          },
+          {
+            "id": 4,
+            "title": "Influencer relationship building and sponsorship.",
+            "icon": "FaCrown"
           }
         ]
       },
@@ -398,17 +458,22 @@
           {
             "id": 1,
             "title": "Broken link reclamation.",
-            "icon": ""
+            "icon": "FaTools"
           },
           {
             "id": 2,
             "title": "Competitor backlink analysis and replication.",
-            "icon": ""
+            "icon": "FaSearch"
           },
           {
             "id": 3,
             "title": "Tiered link building and local citations.",
-            "icon": ""
+            "icon": "FaSitemap"
+          },
+          {
+            "id": 4,
+            "title": "Niche edits and contextual link inserts.",
+            "icon": "FaLink"
           }
         ]
       }
@@ -428,17 +493,22 @@
           {
             "id": 1,
             "title": "Long-form SEO blog writing.",
-            "icon": ""
+            "icon": "FaFileAlt"
           },
           {
             "id": 2,
             "title": "Website landing page copywriting.",
-            "icon": ""
+            "icon": "FaEdit"
           },
           {
             "id": 3,
             "title": "Product description writing.",
-            "icon": ""
+            "icon": "FaShoppingCart"
+          },
+          {
+            "id": 4,
+            "title": "Whitepaper and e-book creation.",
+            "icon": "FaBook"
           }
         ]
       },
@@ -449,17 +519,22 @@
           {
             "id": 1,
             "title": "Email marketing drip campaigns.",
-            "icon": ""
+            "icon": "FaEnvelope"
           },
           {
             "id": 2,
             "title": "Outbound marketing copy.",
-            "icon": ""
+            "icon": "FaBullhorn"
           },
           {
             "id": 3,
             "title": "Translation and localization services.",
-            "icon": ""
+            "icon": "FaGlobe"
+          },
+          {
+            "id": 4,
+            "title": "Sales pitch deck and collateral copy.",
+            "icon": "FaFileAlt"
           }
         ]
       }
@@ -479,17 +554,22 @@
           {
             "id": 1,
             "title": "E-commerce SEO for enhanced visibility.",
-            "icon": ""
+            "icon": "FaSearch"
           },
           {
             "id": 2,
             "title": "Shopify web design and optimization.",
-            "icon": ""
+            "icon": "FaLaptopCode"
           },
           {
             "id": 3,
             "title": "Conversion Rate Optimization (CRO).",
-            "icon": ""
+            "icon": "FaChartLine"
+          },
+          {
+            "id": 4,
+            "title": "Checkout funnel friction audits.",
+            "icon": "FaShoppingCart"
           }
         ]
       },
@@ -500,17 +580,22 @@
           {
             "id": 1,
             "title": "E-commerce PPC for targeted campaigns.",
-            "icon": ""
+            "icon": "FaSearchDollar"
           },
           {
             "id": 2,
             "title": "Google Shopping feed management.",
-            "icon": ""
+            "icon": "FaGoogle"
           },
           {
             "id": 3,
             "title": "Amazon Advertising.",
-            "icon": ""
+            "icon": "FaShoppingCart"
+          },
+          {
+            "id": 4,
+            "title": "Dynamic social catalog ads.",
+            "icon": "FaUsers"
           }
         ]
       }

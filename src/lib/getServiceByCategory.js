@@ -1,12 +1,9 @@
-import { BASEURL } from "../../Constant";
+import servicesData from "./servicesDB.json";
+import generateSlug from "@/components/Shared/generateSlug";
 
 export default async function getServiceByCategory(props) {
-  const result = await fetch(
-    `${BASEURL}/services/${props}`
-    , { cache: 'no-store' }
-  )
-  if (!result.ok) {
-    throw new Error("There was an error fetching get specific service category data!")
-  }
-  return result.json() || null;
+  const category = servicesData.find(
+    (cat) => generateSlug(cat.category_name) === props
+  );
+  return category || null;
 }

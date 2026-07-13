@@ -1,37 +1,49 @@
-import Image from "next/image";
-import icon from "@@/images/services/category/why-need-service-icon.svg";
+import {
+  FaSearchPlus,
+  FaSitemap,
+  FaClone,
+  FaHandPointer,
+  FaPalette,
+  FaRegCheckCircle,
+} from "react-icons/fa";
 
 const HowWorkThisService = () => {
   const steps = [
     {
       id: 1,
       title: "User Research & Analysis",
-      description: "We conduct surveys, interviews, and competitor analysis to define user personas and map out clear customer journeys."
+      description: "We conduct surveys, interviews, and competitor analysis to define user personas and map out clear customer journeys.",
+      icon: FaSearchPlus
     },
     {
       id: 2,
       title: "Information Architecture",
-      description: "We build logical content hierarchies and navigation blueprints, ensuring that users can find information with minimum clicks."
+      description: "We build logical content hierarchies and navigation blueprints, ensuring that users can find information with minimum clicks.",
+      icon: FaSitemap
     },
     {
       id: 3,
       title: "Wireframing & Structural Layouts",
-      description: "We design structural wireframes and interactive prototypes, validating interaction patterns before adding visual design styles."
+      description: "We design structural wireframes and interactive prototypes, validating interaction patterns before adding visual design styles.",
+      icon: FaClone
     },
     {
       id: 4,
       title: "Interactive Prototyping",
-      description: "We build clickable prototypes that simulate actual product behavior, facilitating review and alignment on screen connections."
+      description: "We build clickable prototypes that simulate actual product behavior, facilitating review and alignment on screen connections.",
+      icon: FaHandPointer
     },
     {
       id: 5,
       title: "Aesthetic Visual UI Design",
-      description: "We draft beautiful, high-fidelity layouts, selecting color schemes, typography, and custom icons that express your brand&apos;s style."
+      description: "We draft beautiful, high-fidelity layouts, selecting color schemes, typography, and custom icons that express your brand's style.",
+      icon: FaPalette
     },
     {
       id: 6,
       title: "Usability Testing & Hand-off",
-      description: "We test the prototypes with real users to identify design bottlenecks, refining interactions and preparing code-ready style guides."
+      description: "We test the prototypes with real users to identify design bottlenecks, refining interactions and preparing code-ready style guides.",
+      icon: FaRegCheckCircle
     }
   ];
 
@@ -47,21 +59,18 @@ const HowWorkThisService = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 md:gap-x-8 py-3 md:py-6 md:pt-9">
-          {steps.map((step, i) => (
-            <div key={i} className="need_card bg-white flex flex-col gap-2 md:gap-3 p-3 md:p-6 md:py-8 shadow md:shadow-lg rounded-md md:rounded-xl">
-              <div className="service_icon bg-[#2ECC711A] w-12 md:w-14 p-3">
-                <Image
-                  src={icon}
-                  alt="process step icon"
-                  width={200}
-                  height={200}
-                  className="w-full"
-                />
+          {steps.map((step, i) => {
+            const StepIcon = step.icon;
+            return (
+              <div key={i} className="need_card bg-white flex flex-col gap-2 md:gap-3 p-6 md:p-8 shadow md:shadow-lg rounded-xl">
+                <div className="service_icon bg-[#2ECC711A] w-12 h-12 rounded-xl flex items-center justify-center">
+                  <StepIcon className="text-[#2ECC71] text-xl" />
+                </div>
+                <h3 className="text-base md:text-lg font-bold text-[#111204]">0{step.id}. {step.title}</h3>
+                <p className="text-sm">{step.description}</p>
               </div>
-              <h3 className="text-base md:text-lg font-bold text-[#111204]">0{step.id}. {step.title}</h3>
-              <p className="text-sm">{step.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
