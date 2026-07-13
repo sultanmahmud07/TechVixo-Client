@@ -11,8 +11,8 @@ const SubMenuBar = ({ setNavToggle, navData, isOpen }) => {
   return (
     <div
       className={`sub_nav_manu bg-secondary py-8 pb-16 z-10 shadow-lg absolute top-16 left-0 right-0 w-full h-auto p-1 text-white transition-all duration-300 ease-out ${isOpen
-          ? "opacity-100 translate-y-0 pointer-events-auto visible"
-          : "opacity-0 -translate-y-4 pointer-events-none invisible"
+        ? "opacity-100 translate-y-0 pointer-events-auto visible"
+        : "opacity-0 -translate-y-4 pointer-events-none invisible"
         }`}
     >
       <div className="main_container">

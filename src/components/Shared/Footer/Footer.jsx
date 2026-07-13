@@ -48,7 +48,7 @@ const Footer = () => {
       <div className="absolute top-[-100px] md:top-[-150px] left-0 right-0 w-full">
         <div className="main_container flex flex-col gap-3 items-center bg-[#1E2008] p-4 md:p-14 rounded-3xl text-white">
           <h3 className="text-center text-xl md:text-4xl md:w-4/5">Join the Revolution and Be Part of Our Team&apos;s Journey</h3>
-          <p  className="text-center text-sm md:text-base md:w-1/2">At Digimatric, we are always on the lookout for talented individuals to join our team and help shape the future of digital marketing.</p>
+          <p className="text-center text-sm md:text-base md:w-1/2">At Digimatric, we are always on the lookout for talented individuals to join our team and help shape the future of digital marketing.</p>
           <button type="button" className="flex items-center gap-2 md:mt-5 bg-primary rounded text-white p-2 px-4">
             <span>See Pricing</span>
             <span><FaArrowCircleRight /></span>
@@ -79,7 +79,7 @@ const Footer = () => {
               <span className="text-base font-semibold">
                 <FaPhone />
               </span>
-              {/* <span className="text-sm md:text-base">+880 1844 522 115</span> */}
+              <span className="text-sm md:text-base">+880 1844 522 115</span>
             </p>
             <div className=" flex items-center gap-3">
               <Link
