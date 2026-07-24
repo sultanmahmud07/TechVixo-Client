@@ -1,62 +1,33 @@
-"use client"
-import { useState } from 'react'
-import img1 from '@@/images/home/case-studies/left-logo/1.png'
-import img2 from '@@/images/home/case-studies/left-logo/2.png'
-import img3 from '@@/images/home/case-studies/left-logo/3.png'
-import img4 from '@@/images/home/case-studies/left-logo/4.png'
-import Image from 'next/image'
+"use client";
 
-const StudiesTab = () => {
-      const tabData = [
-            {
-                  id: 1,
-                  name: "",
-                  logo: img1
-            },
-            {
-                  id: 2,
-                  name: "",
-                  logo: img2
-            },
-            {
-                  id: 3,
-                  name: "",
-                  logo: img3
-            },
-            {
-                  id: 4,
-                  name: "",
-                  logo: img4
-            },
-      ]
-      // State to track the active tab
-      const [activeTab, setActiveTab] = useState(1);
-      const handleTabActive = (tab) => {
-            setActiveTab(tab.id)
-      
-      }
-      return (
-            <div className=' py-5 md:py-10'>
-                  {tabData.map((tab) => (
-                        <div
-                              key={tab.id}
-                              onClick={() => handleTabActive(tab)} // Set active tab on click
-                              className={`studies_tab flex justify-center items-center p-3 md:p-5 cursor-pointer  border-t-4 ${activeTab === tab.id ? "border-primary bg-[#fafafa4c]" : " border-white"
-                                    }`}
-                        >
-                              <div className="w-1/4">
-                                    <Image
-                                          width={300}
-                                          src={tab?.logo}
-                                          alt={"client-img"}
-                                          className="w-full rounded-full"
-                                    />
-                              </div>
+import Image from "next/image";
 
-                        </div>
-                  ))}
-            </div>
-      )
-}
+const StudiesTab = ({ tabData, activeTab, setActiveTab }) => {
+  return (
+    <div className="py-5 md:py-8 flex flex-col gap-2 md:gap-4">
+      {tabData.map((tab) => (
+        <div
+          key={tab.id}
+          onClick={() => setActiveTab(tab.id)}
+          className={`studies_tab flex justify-center items-center p-4 md:p-6 cursor-pointer border-t-2 md:border-t-0 md:border-l-4 transition-all duration-300 ${
+            activeTab === tab.id
+              ? "border-primary bg-white/10"
+              : "border-transparent bg-transparent hover:bg-white/5"
+          }`}
+        >
+          <div className="w-24 md:w-32 flex items-center justify-center opacity-75 hover:opacity-100 transition">
+            <Image
+              width={128}
+              height={40}
+              src={tab.logo}
+              alt={tab.name || "Client Logo"}
+              className="object-contain max-h-8 md:max-h-10 filter brightness-100"
+            />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
-export default StudiesTab
+export default StudiesTab;

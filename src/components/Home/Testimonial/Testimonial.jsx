@@ -1,6 +1,4 @@
-import sarahImg from "@@/images/home/testimonial/client-sarah.jpg";
-import davidImg from "@@/images/home/testimonial/client-david.jpg";
-import arisImg from "@@/images/home/testimonial/client-aris.jpg";
+import img1 from "@@/images/home/testimonial/1.png";
 import client1 from "@@/images/home/client/1.png";
 import client2 from "@@/images/home/client/2.png";
 import client3 from "@@/images/home/client/3.png";
@@ -10,7 +8,7 @@ const ClientTestimonial = () => {
   const testimonialData = [
     {
       id: 1,
-      img: sarahImg,
+      img: img1,
       client: client1,
       name: "Sarah Jenkins",
       post: "CTO of RetailSpace E-Commerce",
@@ -19,7 +17,7 @@ const ClientTestimonial = () => {
     },
     {
       id: 2,
-      img: davidImg,
+      img: img1,
       client: client2,
       name: "David Kovic",
       post: "Product Director at HealthCare 360",
@@ -28,7 +26,7 @@ const ClientTestimonial = () => {
     },
     {
       id: 3,
-      img: arisImg,
+      img: img1,
       client: client3,
       name: "Aris Thorne",
       post: "Founder of SaaS-Hub Systems",
