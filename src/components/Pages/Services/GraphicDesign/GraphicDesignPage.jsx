@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import img from "@@/images/services/category/key-img.png";
+import img from "@@/images/services/design/graphics-design-service.jpg";
 import ServiceClients from "@/components/Pages/Services/Category/ServiceClients/ServiceClients";
 import ServiceFAQ from "@/components/Pages/Services/Categories/ServiceFAQ";
 import ContactForm from "@/components/Pages/Home/ContactForm/ContactForm";
@@ -172,7 +172,7 @@ const GraphicDesignPage = () => {
               <Image
                 width={600}
                 height={400}
-                src="/assets/images/services/details-image/about-service.png"
+                src="/assets/images/services/design/graphics-design.jpg"
                 alt="Graphic Design about image"
                 className="w-full h-auto object-cover rounded-xl"
               />

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import img from "@@/images/services/category/key-img.png";
+import img from "@@/images/services/design/branding-service.jpg";
 import ServiceClients from "@/components/Pages/Services/Category/ServiceClients/ServiceClients";
 import ServiceFAQ from "@/components/Pages/Services/Categories/ServiceFAQ";
 import ContactForm from "@/components/Pages/Home/ContactForm/ContactForm";
@@ -117,7 +117,7 @@ const BrandingAndIdentityPage = () => {
         "A beautiful logo is useless if it does not communicate the right message to your target customer. At DigiMatric, we treat branding as a strategic business asset that bridges the gap between your services and consumer perception.",
         "We help you define a strong tone of voice, visual symbols, and identity guidelines that express the high quality of work you do, ensuring your brand leaves a lasting footprint."
       ],
-      img: "/assets/images/services/details-image/design/ui-ux/1.png"
+      img: "/assets/images/services/design/brand-stategy.jpg"
     },
     {
       title: "Consistent Identity Across All Channels",
@@ -125,7 +125,7 @@ const BrandingAndIdentityPage = () => {
         "From your website to your social media graphics, print advertisements, and packaging, a uniform presence increases revenue. We design cohesive styles that ensure your brand is instantly recognizable.",
         "We build templates that enable quick creation of branded assets while preventing layout drift, keeping your visual identity premium and aligned."
       ],
-      img: "/assets/images/services/details-image/design/ui-ux/2.png"
+      img: "/assets/images/services/design/brand-identity.jpg"
     }
   ];
 
@@ -172,7 +172,7 @@ const BrandingAndIdentityPage = () => {
               <Image
                 width={600}
                 height={400}
-                src="/assets/images/services/details-image/about-service.png"
+                src="/assets/images/services/design/branding.jpg"
                 alt="Branding and identity about image"
                 className="w-full h-auto object-cover rounded-xl"
               />

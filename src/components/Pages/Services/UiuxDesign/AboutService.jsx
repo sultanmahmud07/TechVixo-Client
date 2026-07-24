@@ -24,7 +24,7 @@ const AboutService = () => {
             <Image
               width={600}
               height={400}
-              src="/assets/images/services/details-image/about-service.png"
+              src="/assets/images/services/design/website-design.jpg"
               alt="UI/UX design about image"
               className="w-full"
             />

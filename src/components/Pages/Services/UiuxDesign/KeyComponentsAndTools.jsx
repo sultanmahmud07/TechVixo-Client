@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img from "@@/images/services/category/key-img.png";
+import img from "@@/images/services/design/design-keys.jpg";
 import { FaCheck } from "react-icons/fa";
 
 const KeyComponentsAndTools = () => {
