@@ -31,7 +31,7 @@ const WelcomeServices = () => {
             <Image
               width={600}
               height={400}
-              src="/assets/images/services/details-image/about-service.png"
+              src="/assets/images/services/seo/seo.jpg"
               alt="SEO services welcome illustration"
               className="w-full rounded-lg shadow-md"
             />
