@@ -117,7 +117,7 @@ const GraphicDesignPage = () => {
         "In a fast-paced digital world, users scroll past generic images in milliseconds. Our graphic design services focus on custom, high-impact vector artwork and layouts designed to disrupt their feed.",
         "We build graphic designs that tell a story, support call-to-actions, and increase conversion rates on Facebook, Google, and your website."
       ],
-      img: "/assets/images/services/details-image/design/ui-ux/1.png"
+      img: "/assets/images/services/design/marketing-graphics.png"
     },
     {
       title: "Print Media and Promotional Collaterals",
@@ -125,7 +125,7 @@ const GraphicDesignPage = () => {
         "Physical touchpoints require the same attention to detail as digital screens. We design corporate brochures, banners, product packaging, and trade show displays that look premium and project authority.",
         "We handle the technical setup (bleed marks, color profiles) so that what you see on the screen matches perfectly with what comes out of the printer."
       ],
-      img: "/assets/images/services/details-image/design/ui-ux/2.png"
+      img: "/assets/images/services/design/print-collaterals.png"
     }
   ];
 

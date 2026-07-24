@@ -3,28 +3,28 @@ import Image from "next/image";
 const MoreContent = () => {
   const sections = [
     {
-      title: "Meet Your Social Media Management Agency",
+      title: "User Research & Empathy Mapping",
       description: [
-        "You probably didn’t get into business with the expectation that you’d have to manage multiple social media pages in addition to your day-to-day operations. We get it, which is why we offer SEO-driven social media management service that keeps your social media presence going strong without taking away from everything else that you need to get done.",
-        "Strategic social media marketing is built on the belief that your content should not be overly sales-focused. While it is essential to build brand awareness and promote your products and services, engaging your audience with interactive content and community-building activities can be a much more effective social media strategy than simply posting about what you sell."
+        "Understanding user psychology and target demographics is the cornerstone of any successful digital interface. At Digimatric, we run user research cycles to define behavioral patterns, outline user personas, and map out custom empathy charts.",
+        "We convert these insights into logical interaction frameworks, ensuring that your digital product solves real user problems and eliminates navigation friction from the first click."
       ],
-      img: "/assets/images/services/details-image/design/ui-ux/1.png"
+      img: "/assets/images/services/design/uiux-research.png"
     },
     {
-      title: "Your website is your brand&apos;s most visible.",
+      title: "Interactive Wireframes & Flow Blueprints",
       description: [
-        "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do. Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful."
+        "Before diving into colors and visual elements, we outline the structural skeleton of your software. Wireframing lets us define page information hierarchies, user pathways, and call-to-action positions.",
+        "Our interactive clickable prototypes simulate true user experiences, allowing your stakeholders to review menus, input forms, and page transitions early in the design phase."
       ],
-      img: "/assets/images/services/details-image/design/ui-ux/2.png"
+      img: "/assets/images/services/design/uiux-wireframes.png"
     },
     {
-      title: "Your website is your brand&apos;s most visible.",
+      title: "High-Fidelity UI Design & Style Libraries",
       description: [
-        "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do. Visitors judge whether or not they trust your business from the moment they land on your site.",
-        "Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful. Visitors judge whether or not they trust your business from the moment they land on your site. Power Digital transforms your website into a powerful, professional communication tool that reflects the premium quality of work you do. Visitors judge whether or not they trust your business from the moment they land on your site."
+        "We translate approved blueprints into beautiful, modern user interfaces. We curate tailored color schemes, professional font hierarchies, and custom icon sets that elevate your corporate identity.",
+        "We build reusable design systems and component libraries (buttons, modals, input elements) to accelerate front-end coding while guaranteeing complete visual styling consistency."
       ],
-      img: "/assets/images/services/details-image/design/ui-ux/3.png"
+      img: "/assets/images/services/design/uiux-visual.png"
     }
   ];
 
