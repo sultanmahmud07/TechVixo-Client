@@ -1,123 +1,213 @@
-import Link from 'next/link'
+"use client";
+
+import Link from "next/link";
+import {
+  FaComments,
+  FaProjectDiagram,
+  FaPalette,
+  FaLaptopCode,
+  FaBug,
+  FaRocket,
+  FaShieldAlt,
+  FaSync,
+  FaEye,
+  FaBolt,
+  FaCheck,
+} from "react-icons/fa";
 
 const Process = () => {
-      const processData = [
-            {
-                  id: 1,
-                  title: "Understanding Your Goals",
-                  description: "We start by listening to your needs and objectives. Through consultations and brainstorming sessions, we gain a thorough understanding of your business and digital goals. This helps us outline a clear roadmap to success.",
-                  keyTitle: "Key Highlights:",
-                  keys: [
-                        "Identify target audience and business goals.",
-                        "Align on project vision and key performance indicators (KPIs).",
-                  ],
-                  link: ""
-            },
-            {
-                  id: 1,
-                  title: "Comprehensive Research and Planning",
-                  description: "Our team conducts in-depth research to assess industry trends, analyze competitors, and identify opportunities. Using data-driven insights, we craft a customized strategy tailored to your business objectives.",
-                  keyTitle: "Key Tools and Insights:",
-                  keys: [
-                        "Competitor analysis and keyword research.",
-                        "SEO strategies, PPC campaigns, and branding recommendations.",
-                        "STools: Site Explorer, Backlink Analysis, Keyword Research 2.0.",
-                  ],
-                  link: ""
-            },
-            {
-                  id: 1,
-                  title: "Creative Planning and Design",
-                  description: "For design-focused projects, we create visually stunning and user-friendly concepts. Our UX/UI designers ensure your brand identity is represented effectively while enhancing functionality and user experience.",
-                  keyTitle: "Key Deliverables:",
-                  keys: [
-                        "UX/UI design tailored to business goals.",
-                        "Branding solutions that balance creativity and functionality.",
-                  ],
-                  link: ""
-            },
-            {
-                  id: 1,
-                  title: "Build and Execution",
-                  description: "With strategies and designs in place, our development team brings your vision to life. We develop responsive websites, mobile apps, and implement digital marketing campaigns across platforms like Google Ads and social media.",
-                  keyTitle: "Key Highlights:",
-                  keys: [
-                        "Responsive web design and progressive mobile apps.",
-                        "Multi-platform digital marketing campaigns.",
-                  ],
-                  link: ""
-            },
-            {
-                  id: 1,
-                  title: "Testing and Quality Assurance",
-                  description: "Before any launch, we conduct rigorous testing to ensure every detail is perfect. This includes technical SEO audits, campaign performance analysis, and user experience evaluations to guarantee flawless delivery.",
-                  keyTitle: "Key Insights:",
-                  keys: [
-                        "Technical SEO and website performance testing.",
-                        "Metrics analysis for marketing campaigns.",
-                  ],
-                  link: ""
-            },
-            {
-                  id: 1,
-                  title: " Launch and Continuous Optimization",
-                  description: "Once the project goes live, we don’t stop there. We continuously monitor performance, optimize campaigns, and adapt to ensure maximum ROI. Our goal is to keep delivering measurable and impactful results for your business.",
-                  keyTitle: "Key Focus Areas:",
-                  keys: [
-                        "E-commerce SEO and PPC campaign optimization.",
-                        "Performance tracking and ROI-driven adjustments.",
-                  ],
-                  link: ""
-            },
+  const processData = [
+    {
+      id: 1,
+      title: "Discovery & Empathy Mapping",
+      description: "We start by listening. Through collaborative workshops, we define your business goals, map user journeys, and establish key performance metrics (KPIs) to align development with your vision.",
+      icon: FaComments,
+      keyTitle: "Key Objectives:",
+      keys: [
+        "Define clear project scope boundaries.",
+        "Map user personas and journey paths.",
+        "Agree on target timeline and KPI metrics."
       ]
-      return (
-        <section className='py-5 md:py-10'>
-              <div className="main_container">
-              <div className="flex flex-col gap-4 md:gap-8">
-                  <div className="flex flex-col gap-3 md:gap-5 my-3">
-                        <h2 className="text-xl md:text-3xl text-[#111204] font-semibold capitalize">
-                              At Digimatric
-                        </h2>
-                        <p className="text-sm md:text-base">
-                        At Digimatric, we believe that success begins with a well-structured and client-focused process. Whether it’s digital marketing, web development, or SEO services, our goal is to deliver exceptional results through a collaborative and streamlined approach. Here’s an overview of our process:
-                        </p>
-                        <Link
-                              href={`/services`}
-                        >
-                              <button type="button" className="inline-block text-sm shadow md:shadow-md bg-secondary p-2 px-3 md:px-10 rounded-md text-[#FFFFFF]">Here are overview of our process:</button>
-                        </Link>
+    },
+    {
+      id: 2,
+      title: "Research & Planning Roadmap",
+      description: "Our technical architects analyze industry trends, crawl competitor sites, and map API dependencies. We convert these inputs into structured product roadmap logs and timeline Gantt charts.",
+      icon: FaProjectDiagram,
+      keyTitle: "Key Deliverables:",
+      keys: [
+        "Competitor analysis & keyword gaps maps.",
+        "Database entity diagrams and API specs.",
+        "12-month development release roadmaps."
+      ]
+    },
+    {
+      id: 3,
+      title: "Design & UX/UI Architecture",
+      description: "We craft visually stunning, intuitive visual interfaces. By compiling clean wireframes and interactive clickable prototypes early, we allow you to review flows before writing code.",
+      icon: FaPalette,
+      keyTitle: "Design Outputs:",
+      keys: [
+        "Clickable low-fidelity wireframe maps.",
+        "Custom design systems and typography rules.",
+        "High-fidelity mobile and desktop screens."
+      ]
+    },
+    {
+      id: 4,
+      title: "Agile Build & Code Execution",
+      description: "Our development team brings designs to life using modern tech stacks. We write clean, semantic code in bi-weekly Scrum sprints, deploying updates to staging URLs continuously.",
+      icon: FaLaptopCode,
+      keyTitle: "Engineering focus:",
+      keys: [
+        "Modular React/Next.js frontend coding.",
+        "Secure backend REST/GraphQL API connections.",
+        "Automated CI/CD staging environment deployments."
+      ]
+    },
+    {
+      id: 5,
+      title: "Quality Assurance & Stress Audits",
+      description: "Before release, we run testing routines: manual layout checks across browser resolutions, automated code integration tests, security audits, and backend request stress scripts.",
+      icon: FaBug,
+      keyTitle: "Testing checkmarks:",
+      keys: [
+        "Cross-browser and viewport layout passes.",
+        "Security scans checking for injections or loops.",
+        "Load stress analysis under peak concurrent users."
+      ]
+    },
+    {
+      id: 6,
+      title: "Launch & Growth Optimizations",
+      description: "We launch your product securely, configuring server parameters and CDN routing. Post-launch, we check database logs, audit conversions, and optimize code parameters continuously.",
+      icon: FaRocket,
+      keyTitle: "Post-Launch support:",
+      keys: [
+        "24/7 cloud server latency tracking.",
+        "SEO conversion audits and meta tags tunings.",
+        "Feature updates backlog prioritization."
+      ]
+    }
+  ];
+
+  const standards = [
+    {
+      id: 1,
+      title: "Security First Standards",
+      description: "We encrypt databases, configure firewalls, and audit credentials to guarantee absolute user safety.",
+      icon: FaShieldAlt
+    },
+    {
+      id: 2,
+      title: "Agile Sprint Delivery",
+      description: "We work in structured sprints, delivering functional demos every two weeks for review.",
+      icon: FaSync
+    },
+    {
+      id: 3,
+      title: "Total Progress Transparency",
+      description: "You retain direct access to Jira backlog cards, Figma files, and git code pipelines.",
+      icon: FaEye
+    },
+    {
+      id: 4,
+      title: "Performance Optimization",
+      description: "We compile fast, clean code, optimizing page files to load in under two seconds.",
+      icon: FaBolt
+    }
+  ];
+
+  return (
+    <div className="bg-[#FAF9FC]">
+      {/* Intro Header Section */}
+      <section className="py-12 md:py-20 bg-white border-b border-gray-100">
+        <div className="main_container">
+          <div className="flex flex-col md:flex-row gap-6 md:gap-16 items-center">
+            <div className="w-full md:w-1/2">
+              <h2 className="text-3xl md:text-5xl text-[#111204] font-bold leading-tight">
+                How We Deliver Modern Digital Products
+              </h2>
+              <p className="text-sm md:text-base text-gray-600 my-4 md:my-6 leading-relaxed">
+                At Digimatric, we turn technical complexity into structured sprint roadmaps. We believe a successful build starts with an empathy-driven scoping call and ends with continuous code optimizations.
+              </p>
+              <Link href="/contact">
+                <button className="bg-primary hover:bg-secondary text-white font-semibold py-3 px-8 rounded-lg shadow-sm hover:shadow transition">
+                  Start Your Project
+                </button>
+              </Link>
+            </div>
+            <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">
+              {standards.map((std, i) => {
+                const StdIcon = std.icon;
+                return (
+                  <div key={i} className="p-4 md:p-6 bg-[#FAF9FC] border border-gray-100 rounded-xl flex flex-col gap-2">
+                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary text-lg">
+                      <StdIcon />
+                    </div>
+                    <h4 className="font-bold text-secondary text-sm md:text-base">{std.title}</h4>
+                    <p className="text-xs text-gray-500 leading-relaxed">{std.description}</p>
                   </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:py-5 md:gap-10">
-                        {
-                              processData?.map((item, i) => {
-                                    return (
-                                          <div key={i} className='border-t border-white'>
-                                                <div className="top flex items-center gap-2 md:gap-5">
-                                                      <span className='text-primary font-semibold text-5xl md:text-8xl'>0{i + 1}</span>
-                                                      <h6 className='text-xl text-[#111204]'>{item.title}</h6>
-                                                </div>
-                                                <p className='text-sm md:text-base py-2 md:pt-4'>{item.description}</p>
-                                              <div className="keys">
-                                                <p  className='font-semibold my-2 text-[#111204]'>{item.keyTitle}</p>
-                                                <ul className='flex flex-col gap-1 list-disc pl-3'>
-                                                     {
-                                                      item?.keys?.map((key, i) => {
-                                                            return(
-                                                                  <li className='text-sm text-black' key={i}>{key}</li>
-                                                            )
-                                                      })
-                                                     }
-                                                </ul>
-                                              </div>
-                                          </div>
-                                    )
-                              })
-                        }
-                  </div>
+                );
+              })}
             </div>
           </div>
-        </section>
-      )
-}
+        </div>
+      </section>
 
-export default Process
+      {/* Timeline Steps Section */}
+      <section className="py-12 md:py-24">
+        <div className="main_container">
+          <div className="top_title_design flex flex-col items-center pb-12">
+            <h3 className="sut_title">Our Process Phases</h3>
+            <h2 className="text-center text-3xl md:text-4xl font-bold text-secondary my-3">
+              Step-by-Step Delivery Pipeline
+            </h2>
+            <p className="text-gray-600 text-center w-full md:w-3/5">
+              From requirement definition to coding and post-launch auditing, we manage every release parameter.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
+            {processData.map((item, i) => {
+              const StepIcon = item.icon;
+              return (
+                <div
+                  key={i}
+                  className="bg-white p-6 md:p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+                >
+                  <div>
+                    <div className="flex justify-between items-start mb-4">
+                      <div className="flex items-center gap-4">
+                        <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center text-primary text-2xl">
+                          <StepIcon />
+                        </div>
+                        <h4 className="text-xl md:text-2xl font-bold text-secondary">{item.title}</h4>
+                      </div>
+                      <span className="text-4xl md:text-6xl font-bold text-primary/10">0{i + 1}</span>
+                    </div>
+                    <p className="text-sm md:text-base text-gray-600 leading-relaxed mb-6">
+                      {item.description}
+                    </p>
+                  </div>
+                  <div className="border-t border-gray-100 pt-4">
+                    <h5 className="font-bold text-secondary text-sm md:text-base mb-3">{item.keyTitle}</h5>
+                    <ul className="flex flex-col gap-2">
+                      {item.keys.map((key, idx) => (
+                        <li className="flex items-start gap-2 text-xs md:text-sm text-gray-600" key={idx}>
+                          <FaCheck className="text-primary mt-1 text-xs flex-shrink-0" />
+                          <span>{key}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default Process;

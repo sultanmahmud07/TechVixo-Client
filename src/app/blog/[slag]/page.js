@@ -11,9 +11,9 @@ const page = ({ params }) => {
             <TopGap></TopGap>
             <SharedBanner
                 title={blogTitle}
-                description="Explore insightful articles, tips, and stories about education, travel, and success to guide your journey abroad"
+                description="Read insightful articles, tips, and guides on software development, UI/UX designs, and search optimization strategies from Digimatric tech experts."
             ></SharedBanner>
-            <BlogDetails></BlogDetails>
+            <BlogDetails title={blogTitle}></BlogDetails>
         </div>
     )
 }

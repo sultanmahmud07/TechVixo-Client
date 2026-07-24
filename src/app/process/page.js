@@ -5,8 +5,8 @@ import SharedBanner from "@/components/Shared/ShareBanner/ShareBanner"
 import TopGap from "@/components/Shared/TopGap/TopGap"
 
 export const metadata = {
-  title: 'Process - Digimatric',
-  description: 'Best digital agency in Dhaka Bangladesh',
+  title: 'Our Process & Agile Development Methodology - Digimatric',
+  description: 'Learn about Digimatric\'s structured agile-scrum software development process. From discovery scoping and wireframing to code execution, QA testing, and launch.',
 }
 const page = () => {
   return (
