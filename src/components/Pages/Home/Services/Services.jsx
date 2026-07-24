@@ -15,42 +15,42 @@ const Services = () => {
             title: "Digital Marketing",
             des: "We specialize in data-driven digital marketing that delivers measurable results. Our comprehensive strategies are built to reach your target audience, increase conversions, and enhance your online presence.",
             icon: img1,
-            link: "/"
+            link: "/digital-marketing"
         },
         {
             id: 1,
             title: "Search Engine Optimization-SEO",
             des: "Our SEO services are designed to improve your website’s ranking on Google and other search engines. We optimize your site for organic growth, ensuring you attract quality traffic and maximize visibility.",
             icon: img2,
-            link: "/"
+            link: "/search-engine-optimization-seo"
         },
         {
             id: 1,
-            title: "Web & Mobile Development",
+            title: "Development",
             des: "Digimatric is committed to delivering custom development solutions for web and mobile platforms. From responsive websites to scalable mobile apps, we ensure that your digital infrastructure is ready for the future.",
             icon: img3,
-            link: "/"
+            link: "/development"
         },
         {
             id: 1,
-            title: "Design Services",
+            title: "Design",
             des: "Our design team focuses on creating stunning, user-centric designs that engage and convert. Whether you need UI/UX design, branding, or web design, our team will deliver creative solutions that reflect your brand’s values.",
             icon: img4,
-            link: "/"
+            link: "/design"
         },
         {
             id: 1,
             title: "Social Media Marketing",
             des: "With social media marketing, we help your business connect with a broader audience on platforms like Facebook, Instagram, LinkedIn, and Twitter. Our approach builds brand loyalty and enhances customer engagement.",
             icon: img5,
-            link: "/"
+            link: "/digital-marketing/social-media-marketing"
         },
         {
             id: 1,
-            title: "Content Marketing",
+            title: "Content Writing",
             des: "Create meaningful connections with your audience through SEO content writing, copywriting, and content marketing strategies. We craft compelling narratives that resonate with your target market while boosting your search engine rankings.",
             icon: img6,
-            link: "/"
+            link: "/content-writing"
         }
     ]
     return (

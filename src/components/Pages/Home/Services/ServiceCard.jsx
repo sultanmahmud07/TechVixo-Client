@@ -1,11 +1,9 @@
-import generateSlug from "@/components/Shared/generateSlug";
 import Image from "next/image";
 import Link from "next/link";
 
 
 const ServiceCard = ({ service }) => {
     const { id, title, des, link, icon } = service;
-    const serviceSlag = generateSlug(title)
     return (
         <div className="service_card bg-white p-4 md:p-6 border-2  justify-between border-transparent hover:border-primary transition h-full flex flex-col gap-2 md:gap-3">
             <div className="flex flex-col gap-2 md:gap-3">
@@ -21,7 +19,7 @@ const ServiceCard = ({ service }) => {
                 <h4 className="text-xl md:text-xl">{title}</h4>
                 <p>{des}</p>
             </div>
-            <Link href={`/services/${serviceSlag}`} className="w-full p2-4 md:pt-6">
+            <Link href={`${link}`} className="w-full p2-4 md:pt-6">
                 <button className="w-full bg-primary  text-sm py-3 text-white  hover:bg-secondary transition rounded">
                     Learn More
                 </button>
